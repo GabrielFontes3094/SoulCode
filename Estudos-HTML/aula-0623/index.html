@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriel Fontes">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <h1>Tabelas</h1>
+
+    <!-- Estrutura de tabelas, tr- linha, td-celula. -->
+    <!-- collgroup, col-colunas -->
+    
+    <table border="1px" style="width: 60%;">
+        <colgroup>
+        <col style="background-color: aqua; width: 40%;">
+        <col style="background-color: rgb(77, 255, 0); width: 20%;">
+        <col style="background-color: rgb(255, 0, 0); width: 40%;">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>18</td>
+            <td>Bielfontes@gmail</td>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>10</td>
+            <td>Rafafontes@gmail</td>
+        </tr>
+        <tr>
+            <td>Giovana</td>
+            <td>18</td>
+            <td>Gicosta@gmail</td>
+        </tr>
+    </table>
+
+    <!-- th-titulo -->
+    <h2>Tabuada</h2>
+    <table>
+        <tr>
+            <th>Operação</th>
+            <th>Resultado</th>
+        </tr>
+        <tr>
+            <td>2 + 0 =</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2 + 1 =</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2 + 2 =</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>2 + 3 =</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>2 + 4 =</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>2 + 5 =</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>2 + 6 =</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>2 + 7 =</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>2 + 8 =</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <!-- rowspan-mescla linhas, colspan-mescla colunas -->
+    <h2>Times</h2>
+    <table border="1">
+        <tr>
+            <th rowspan="8">Tabela</th>
+        </tr>
+        <tr>
+            <th colspan="8">Grupos</th>
+        </tr>
+        <tr>
+            <th>Nome</th>
+            <th>Pontos</th>
+            <th>Saldo de Gols</th>
+            <th>Vitórias</th>
+        </tr>
+        <tr>
+            <td>Fluminense</td>
+            <td>20</td>
+            <td>9</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Corinthians</td>
+            <td>70</td>
+            <td>25</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Flamengo</td>
+            <td>25</td>
+            <td rowspan="2" colspan="2">Sem Ponto</td>
+        </tr>
+        <tr>
+            <td>Palmeiras</td>
+            <td>90</td>
+        </tr>
+
+    </table>
+
+    <h2>Times de Futebol</h2>
+    <!-- <thead> -> Define o cabeçalho da tabela -->
+    <!-- <tbody> -> Define o corpo da tabela -->
+    <!-- <tfoot> -> Define o rodapé da tabela -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Classificação times no brasileirão</th>
+            </tr>
+            <tr>
+                <th>Nome</th>
+                <th>Pontos</th>
+                <th>Saldo de Gols</th>
+                <th>Vitórias</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fluminense</td>
+                <td>20</td>
+                <td>9</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Corinthians</td>
+                <td>70</td>
+                <td>25</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Flamengo</td>
+                <td>25</td>
+                <td>10</td>
+                <td rowspan="2">10</td>
+            </tr>
+            <tr>
+                <td>Palmeiras</td>
+                <td>90</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <a href="https://brasileirao.cbf.com.br/" target="_blank">Acesse nosso site.</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
