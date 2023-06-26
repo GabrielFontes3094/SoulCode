@@ -12,17 +12,81 @@
     <h1>Formulario</h1>
     
     <form>
+        numero:
+        <input type="text" name="regular" pattern="[0-9]{4,8}">
+        <br>
         Nome:
-        <input type="text">
+        <input type="text" placeholder="Gabriel Fontes" name="nome" maxlength="15" min="2">
+        <!-- placeholder, texto de fundo -->
+        <!-- accept, aceitar so um tipo de arquivo. ,multiple, disable-->
+        <!-- minLength, maxLength -->
         <br>
         E-mail:
-        <input type="email">
+        <input type="email" name="email">
         <br>
         Senha:
-        <input type="password">
+        <input type="password" name="senha">
         <br>
-        <input type="button" value="Enviar">
+        Numero:
+        <input type="number" name="numero" min="0">
+        <br>
+        Idade:
+        <input type="date" name="data">
+        <br>
+        URL:
+        <input type="url" name="url">
+        <br>
+        Hora:
+        <input type="time" value="15:00" disabled name="hora">
+        <br>
+        Cor:
+        <input type="color" value="#ffab03" name="cor">
+        <br>
+        <!-- radio, escolha -->
+        Estado civil: <br>
+        Solteiro<input type="radio" name="estado-civil"> 
+        <br>
+        Casado<input type="radio" name="estado-civil">
+        <br>
+        <!-- name="", mesmo campo -->
+
+        <!-- range, linha de avaliação, step -->
+        Nivel ingles:
+        1<input type="range" min="1" max="5" name="ingles">5
+        <br>
+
+        <!-- select-option, caixa de opções -->
+        Estado:
+        <select name="estado">
+            <option disabled selected>Selecione um estado</option>
+            <option value="CE">Ceara</option>
+            <option value="SP">Sao paulo</option>
+            <option value="BH">Bahia</option>
+        </select>
+        <br>
+        
+        fale sobre você: <br>
+        <textarea name="tesxtoarea" id="" cols="30" rows="10">Texto padrão</textarea>
+        <br>
+
+        Aceite os termos de uso:
+        <input type="checkbox" name="termos">
+        <br>
+        Arquivo:
+        <input type="file" accept=".png" name="arquivo">
+        <br>
+        <button type="button">Nada</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+        <!-- pattern, define um padrão da informação -->
     </form>
+
+    <!-- button, botão comum
+    submit, submeti as informações do form
+    reset,  -->
+
+
+
 
 </body>
 </html>
