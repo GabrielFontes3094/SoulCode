@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriel Fontes">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <h1>Cadastro</h1>
+
+    <form>
+        <fieldset>
+            <legend>Seu login</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nome">*Nome:</label> 
+                        <input type="text" name="nome" id="nome" placeholder="Nome completo" max="200" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">*E-mail:</label>       
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="senha">*Senha:</label>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+            
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="estado">*UF:</label>       
+                        <input type="text" id="estado" name="estado" list="lista-estado" placeholder="Unidade federal" maxlength="2" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <datalist id="lista-estado">
+                            <option value="AC">
+                            <option value="AL">
+                            <option value="AP">
+                            <option value="AM">
+                            <option value="BA">
+                            <option value="CE">
+                            <option value="DF">  
+                            <option value="ES">
+                            <option value="GO">
+                            <option value="MA">
+                            <option value="MT">
+                            <option value="MS">
+                            <option value="MG">
+                            <option value="PA">
+                            <option value="PB">  
+                            <option value="PR">
+                            <option value="PE">
+                            <option value="PI">
+                            <option value="RJ">  
+                            <option value="RN">
+                            <option value="RS">
+                            <option value="RO">
+                            <option value="SC"> 
+                            <option value="SP"> 
+                            <option value="SE">
+                            <option value="TO"> 
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cidade">*Cidade:</label>
+                        <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rua">*Rua:</label>
+                        <input type="text" name="rua" id="rua" placeholder="Digite sua rua" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="numero">*Numero:</label>
+                        <input type="number" name="numero" id="numero" placeholder="Numero da casa" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cep">*CEP:</label>
+                        <input type="number" name="cep" id="cep" placeholder="Digite seu CEP" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>*Área de atuação:</span>
+                        <br>
+                        <input type="radio" name="formacao" id="fullstack" required> 
+                        <label for="fullstack">Fullstack</label>
+                        <input type="radio" name="formacao" id="cloud" required>
+                        <label for="cloud">Cloud</label>
+                        <input type="radio" name="formacao" id="ambos" required>
+                        <label for="ambos">Ambos</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bio">*BIO:</label>
+                        <br>
+                        <textarea name="bio" id="bio" cols="30" rows="3" placeholder="Fale um pouco sobre você" required></textarea>
+                    </td>
+                </tr>
+        </table>
+        </fieldset>
+        <fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            <button><a href="index.html">Login</a></button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
