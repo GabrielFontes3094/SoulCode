@@ -1,0 +1,35 @@
+h1{
+    color: blue;
+    font-style: italic;
+}
+
+/* comentario */
+
+#elemento{
+    color: rgb(255, 25, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.elemento1{
+    color: goldenrod;
+    font-size: 25px;
+}
+
+.classe1{
+    text-align: justify;
+    color: rgb(68, 230, 9);
+}
+
+.secao1{
+    background-color: aquamarine;
+}
+
+/* combinador */
+.secao1 img{
+    width: 300px;
+}
+
+.secao1 h4{
+    color: blueviolet;
+}
