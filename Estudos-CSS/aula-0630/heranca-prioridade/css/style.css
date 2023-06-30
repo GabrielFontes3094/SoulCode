@@ -1,0 +1,28 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(17, 173, 173);
+    color: aliceblue;
+}
+
+.codigo{
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+
+/* Prioridade = CSS define quais propriedades
+serão aplicadas ou sobrescritas
+inline> tag style> arquivo externo.
+
+inline > tag style > arquivo externo
+atributo style > #id > .classe > seletor de tipo
+*/
+
+h1, h2, h3{
+    background-color: rgb(48, 194, 194);
+    text-decoration:line-through;
+}
+
+#meu-h1{
+    background-color: brown;
+}
