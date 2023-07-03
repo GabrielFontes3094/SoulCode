@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box1{
+    background-color: aqua;
+    padding: 5%;
+    text-align: justify;
+    margin: 5%;
+}
+
+.box2{
+    background-color: chartreuse;
+    padding: 3% 5% 7% 5%;
+    text-align: justify;
+    /* margin: 7% 9% 10% 9%; */
+    margin: 7% 10%;
+}
+
+.box3{
+    background-color: rgba(30, 9, 185, 0.437);
+    border: 2px dashed rgb(255, 0, 0);
+    margin: 2%;
+    padding: 5%
+}
+
+.box4{
+    background-color: rgba(30, 9, 185, 0.437);
+    border: 2px dashed rgb(255, 0, 0);
+    margin: 2%;
+    padding: 5%;
+    width: 25%;
+    height: 50%;
+}
+
+.box5{
+    background-color: gold;
+    padding: 2%;
+    text-align: justify;
+}
+
+

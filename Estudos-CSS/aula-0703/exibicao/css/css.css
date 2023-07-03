@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.box1{
+    border: 1px solid black;
+    display: inline;
+}
+
+.box2{
+    display: none;
+}
+
+a{
+    display: block;
+}
+
+.box3{
+    border: 1px solid black;
+    display: inline-block;
+    width: 15%;
+    height: 100px;
+}
