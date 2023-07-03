@@ -21,3 +21,6 @@ console.log(idade);
 
 const PI = 3.14;
 console.log(PI)
+console.log(typeof nome)
+// typeof. tipo do valor
+
