@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.iten1{
+    background-color: blue;
+}
+
+.iten2{
+    background-color: rgb(81, 81, 244);
+}
+
+.iten3{
+    background-color: rgb(11, 11, 86);
+}
+
+.iten4{
+    background-color: rgb(47, 47, 137);
+}
+
+.iten1, .iten2, .iten3, .iten4{
+    width: 200px;
+    padding: 8px;
+}
+
+.container-2{
+    background-color: cadetblue;
+    height: 200px;
+    display: flex;
+}
+
+.coluna-1{
+    background-color: blueviolet;
+    width: 150px;
+}
+
+.coluna-2{
+    background-color: chartreuse;
+    flex: 1;
+}
+
+.coluna-3{
+    background-color: aquamarine;
+    flex: 1;
+}
